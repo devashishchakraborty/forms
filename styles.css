@@ -50,7 +50,8 @@ body {
   flex-wrap: wrap;
 }
 
-.form-row input[type="text"] {
+.form-row input[type="text"],
+.form-row input[type="email"] {
   background-color: white;
   border: 1px solid #d6d9dc;
   border-radius: 3px;
@@ -73,7 +74,8 @@ body {
     align-items: flex-start;
     margin-bottom: 20px;
   }
-  .form-row input[type='text']{
+  .form-row input[type='text'],
+  .form-row input[type='email']{
     width: 250px;
     height: initial;
   }
